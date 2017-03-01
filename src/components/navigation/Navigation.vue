@@ -17,13 +17,13 @@
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li>
-                  <a href="portfolio-1-col.html">HIIT training</a>
+                  <router-link to="programs/hiit-training" tag="a">HIIT training</router-link>
                 </li>
                 <li>
-                  <a href="portfolio-2-col.html">Weightloss</a>
+                  <router-link to="programs/weightloss" tag="a">Weightloss</router-link>
                 </li>
                 <li>
-                  <a href="portfolio-3-col.html">Student package</a>
+                  <router-link to="programs/student-package" tag="a">Student package</router-link>
                 </li>
               </ul>
             </li>
@@ -42,6 +42,8 @@
       </div>
       <!-- /.container -->
     </nav>
+
+    <hr/>
 
     <router-view></router-view>
 
