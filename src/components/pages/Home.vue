@@ -3,7 +3,7 @@
     <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
       <!-- Wrapper for slides -->
-      <el-carousel :interval="3000" arrow="always">
+      <el-carousel :interval="5000" arrow="always">
         <el-carousel-item>
           <h3>test1</h3>
         </el-carousel-item>
