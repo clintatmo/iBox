@@ -11,10 +11,10 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <a href="/about">About</a>
+              <router-link to="about" tag="a">About</router-link>
             </li>
             <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <b class="caret"></b></a>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs <b class="caret"></b></a>
               <ul class="dropdown-menu">
                 <li>
                   <a href="portfolio-1-col.html">HIIT training</a>
@@ -28,13 +28,13 @@
               </ul>
             </li>
             <li>
-              <a href="/schedule">Schedule</a>
+              <router-link to="schedule" tag="a">Schedule</router-link>
             </li>
             <li>
-              <a href="/contact-us">Contact us</a>
+              <router-link to="contact-us" tag="a">Contact us</router-link>
             </li>
             <li>
-              <a href="/app/login">Login</a>
+              <router-link to="/app/login" tag="a">Login</router-link>
             </li>
           </ul>
         </div>

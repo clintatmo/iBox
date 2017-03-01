@@ -16,19 +16,19 @@ export default new Router({
       redirect: '/home',
       children: [
         {
-          path: '/home',
+          path: 'home',
           component: Home
         },
         {
-          path: '/about',
+          path: 'about',
           component: About
         },
         {
-          path: '/contact-us',
+          path: 'contact-us',
           component: ContactUs
         },
         {
-          path: '/schedule',
+          path: 'schedule',
           component: Schedule
         }
       ]
