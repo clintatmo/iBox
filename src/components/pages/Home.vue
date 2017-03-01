@@ -39,6 +39,16 @@
               <a href="#" class="btn btn-default">Learn More</a>
             </div>
           </div>
+          <el-card :body-style="{ padding: '0px' }">
+            <img src="/assets/tpb_logo.png" class="image">
+            <div style="padding: 14px;">
+              <span>Yummy hamburger</span>
+              <div class="bottom clearfix">
+                <time class="time">{{ currentDate }}</time>
+                <el-button type="text" class="button">Operating button</el-button>
+              </div>
+            </div>
+          </el-card>
         </div>
         <div class="col-md-4">
           <div class="panel panel-default">
