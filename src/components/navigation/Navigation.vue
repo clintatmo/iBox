@@ -5,11 +5,14 @@
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <a class="navbar-brand" href="/">The Pitbull Box</a>
+          <a class="navbar-brand" href="/"><img src="/static/tpb_logo.png" style="width: 70px; margin-top: 0"></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav navbar-right">
+            <li>
+              <router-link to="home" tag="a">Home</router-link>
+            </li>
             <li>
               <router-link to="about" tag="a">About</router-link>
             </li>
@@ -69,7 +72,7 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis, omnis doloremque non cum id reprehenderit, quisquam totam aspernatur tempora minima unde aliquid ea culpa sunt. Reiciendis quia dolorum ducimus unde.</p>
           </div>
           <div class="col-md-6">
-            <img class="img-responsive" src="http://placehold.it/700x450" alt="">
+            <gmap></gmap>
           </div>
         </div>
 
@@ -101,8 +104,14 @@
 </template>
 
 <script>
+
+  import GoogleMap from '../maps/GoogleMap.vue'
+
   export default {
     name: 'navigation',
+    components: {
+      gmap: GoogleMap
+    },
     data () {
       return {
         msg: 'Welcome to Your Vue.js App'

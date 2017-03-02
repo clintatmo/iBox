@@ -3,18 +3,18 @@
     <!-- Header Carousel -->
     <header id="myCarousel" class="carousel slide">
       <!-- Wrapper for slides -->
-      <el-carousel :interval="5000" arrow="always">
+      <el-carousel :interval="5000" arrow="always" height="600px">
         <el-carousel-item>
-          <h3>test1</h3>
+          <img src="/static/image_cf_1.jpg"/>
         </el-carousel-item>
         <el-carousel-item>
-          <h3>test2</h3>
+          <img src="/static/image_cf_2.jpg"/>
         </el-carousel-item>
         <el-carousel-item>
-          <h3>test3</h3>
+          <img src="/static/image_cf_3.jpg"/>
         </el-carousel-item>
         <el-carousel-item>
-          <h3>test4</h3>
+          <img src="/static/image_cf_4.jpg"/>
         </el-carousel-item>
       </el-carousel>
     </header>
@@ -26,7 +26,7 @@
       <div class="row">
         <div class="col-lg-12">
           <h1 class="page-header">
-            Services
+            Programs
           </h1>
         </div>
         <div class="col-md-4">
@@ -39,16 +39,6 @@
               <a href="#" class="btn btn-default">Learn More</a>
             </div>
           </div>
-          <el-card :body-style="{ padding: '0px' }">
-            <img src="/assets/tpb_logo.png" class="image">
-            <div style="padding: 14px;">
-              <span>Yummy hamburger</span>
-              <div class="bottom clearfix">
-                <time class="time">{{ currentDate }}</time>
-                <el-button type="text" class="button">Operating button</el-button>
-              </div>
-            </div>
-          </el-card>
         </div>
         <div class="col-md-4">
           <div class="panel panel-default">
@@ -92,7 +82,10 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style>
-  .el-carousel__item h3 {
+  .el-carousel__item img {
+    width:100% !important;
+    min-width:100% !important;
+    height: auto;
     color: #475669;
     font-size: 18px;
     opacity: 0.75;
@@ -106,5 +99,10 @@ export default {
 
   .el-carousel__item:nth-child(2n+1) {
     background-color: #d3dce6;
+  }
+
+  .image {
+    width: 100%;
+    display: block;
   }
 </style>
