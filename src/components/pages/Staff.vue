@@ -10,9 +10,7 @@
             Staff
           </h1>
         </div>
-      </div>
-      <el-row>
-        <el-col :span="6">
+        <div class="col-md-3">
           <el-card :body-style="{ padding: '0px' }">
             <img src="/static/staff_ka.jpg" class="image">
             <div style="padding: 14px;">
@@ -25,10 +23,8 @@
               </div>
             </div>
           </el-card>
-        </el-col>
-        <el-col :span="6">
-        </el-col>
-        <el-col :span="6">
+        </div>
+        <div class="col-md-3">
           <el-card :body-style="{ padding: '0px' }">
             <img src="/static/staff_ca.jpg" class="image">
             <div style="padding: 14px;">
@@ -41,8 +37,8 @@
               </div>
             </div>
           </el-card>
-        </el-col>
-      </el-row>
+        </div>
+      </div>
       <!-- /.row -->
 
     </div>
