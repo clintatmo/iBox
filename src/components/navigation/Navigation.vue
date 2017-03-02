@@ -16,6 +16,9 @@
             <li>
               <router-link to="about" tag="a">About</router-link>
             </li>
+            <li>
+              <router-link to="staff" tag="a">Staff</router-link>
+            </li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown">Programs <b class="caret"></b></a>
               <ul class="dropdown-menu">

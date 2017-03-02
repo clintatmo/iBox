@@ -5,6 +5,7 @@ import Home from '@/components/pages/Home'
 import About from '@/components/pages/About'
 import ContactUs from '@/components/pages/ContactUs'
 import Schedule from '@/components/pages/Schedule'
+import Staff from '@/components/pages/Staff'
 
 Vue.use(Router)
 
@@ -30,6 +31,10 @@ export default new Router({
         {
           path: 'schedule',
           component: Schedule
+        },
+        {
+          path: 'staff',
+          component: Staff
         }
       ]
     }
