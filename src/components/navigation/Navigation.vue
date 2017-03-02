@@ -5,7 +5,7 @@
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <a class="navbar-brand" href="/"><img src="/static/tpb_logo.png" style="width: 70px; margin-top: 0"></a>
+          <a class="navbar-brand" href="/"><img src="/static/tpb_logo_big.png" style="width: 70px; margin-top: 0"></a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
