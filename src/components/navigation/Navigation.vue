@@ -63,13 +63,31 @@
             <h2 class="page-header">Location</h2>
           </div>
           <div class="col-md-6">
-            <p>Adress:</p>
+            <p><strong>Adress:</strong></p>
             <ul>
               <li>Zandmugstraat 10</li>
+            </ul>
+            <ul>
               <li>Morgenstond</li>
+            </ul>
+            <ul>
               <li>
                 <strong>Suriname, Paramaribo</strong>
               </li>
+            </ul>
+            <br>
+            <p><strong>Contact number:</strong></p>
+            <ul>
+              <li>
+                Clint Atmosoerodjo
+              </li>
+              <li>+597 8827769</li>
+            </ul>
+            <ul>
+              <li>
+                Kimberly Atmosoerodjo - Jong
+              </li>
+              <li>+597 8747171</li>
             </ul>
           </div>
           <div class="col-md-6">
@@ -80,28 +98,22 @@
         <hr>
 
         <!-- Call to Action Section -->
-        <div class="well">
-          <div class="row">
-            <div class="col-md-8">
-              <ul>
-                <li>
-                  <strong>Clint Atmosoerodjo</strong>
-                </li>
-                <li>+597 8827769</li>
-                <li>/</li>
-                <li>
-                  <strong>Kimberly Atmosoerodjo - Jong</strong>
-                </li>
-                <li>+597 8747171</li>
-              </ul>
-            </div>
-            <div class="col-md-4">
-              <a class="btn btn-lg btn-default btn-block" href="#">Call</a>
-            </div>
-          </div>
-        </div>
+        <!--<div class="well">-->
+          <!--<div class="row">-->
+            <!--<div class="col-md-8">-->
+              <!--<ul>-->
 
-        <hr>
+                <!--<li>/</li>-->
+
+              <!--</ul>-->
+            <!--</div>-->
+            <!--<div class="col-md-4">-->
+              <!--<a class="btn btn-lg btn-default btn-block" href="#">Call</a>-->
+            <!--</div>-->
+          <!--</div>-->
+        <!--</div>-->
+
+        <!--<hr>-->
         <!-- /.row -->
         <div class="row">
           <div class="col-lg-12">

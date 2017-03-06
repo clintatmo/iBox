@@ -10,6 +10,30 @@
             Schedule
           </h1>
         </div>
+        <div class="col-lg-12">
+          <el-table
+            :data="tableData"
+            style="width: 100%">
+            <el-table-column
+              prop="day"
+              label="Day"
+              width="180">
+            </el-table-column>
+            <el-table-column
+              prop="time"
+              label="Time"
+              width="180">
+            </el-table-column>
+            <el-table-column
+              prop="class"
+              label="Class type">
+            </el-table-column>
+            <el-table-column
+              prop="classAmount"
+              label="Amount of classes">
+            </el-table-column>
+          </el-table>
+        </div>
       </div>
       <!-- /.row -->
 
@@ -19,10 +43,40 @@
 
 <script>
   export default {
-    name: 'schedule',
+    time: 'schedule',
     data () {
       return {
-        msg: 'Welcome to Your Vue.js App'
+        tableData: [{
+          day: 'monday',
+          time: '17.00-21.00',
+          class: 'Functional training',
+          classAmount: '4'
+        }, {
+          day: 'tuesday',
+          time: '17.00-21.00',
+          class: 'Functional training',
+          classAmount: '4'
+        }, {
+          day: 'wednesday',
+          time: '17.00-21.00',
+          class: 'Functional training',
+          classAmount: '4'
+        }, {
+          day: 'thursday',
+          time: '17.00-21.00',
+          class: 'Functional training',
+          classAmount: '4'
+        }, {
+          day: 'friday',
+          time: '17.00-21.00',
+          class: 'Functional training',
+          classAmount: '4'
+        }, {
+          day: 'saturday',
+          time: '8.00-10.00',
+          class: 'Functional training',
+          classAmount: '2'
+        }]
       }
     }
   }
