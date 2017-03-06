@@ -32,6 +32,10 @@
               prop="classAmount"
               label="Amount of classes">
             </el-table-column>
+            <el-table-column
+              prop="coach"
+              label="Coach">
+            </el-table-column>
           </el-table>
         </div>
       </div>
@@ -48,34 +52,46 @@
       return {
         tableData: [{
           day: 'monday',
-          time: '17.00-21.00',
+          time: '17.00 - 21.00',
           class: 'Functional training',
-          classAmount: '4'
+          classAmount: '4',
+          coach: 'Clint'
         }, {
           day: 'tuesday',
-          time: '17.00-21.00',
+          time: '17.00 - 21.00',
           class: 'Functional training',
-          classAmount: '4'
+          classAmount: '4',
+          coach: 'Kimberly'
         }, {
           day: 'wednesday',
-          time: '17.00-21.00',
+          time: '17.00 - 21.00',
           class: 'Functional training',
-          classAmount: '4'
+          classAmount: '4',
+          coach: 'Clint'
         }, {
           day: 'thursday',
-          time: '17.00-21.00',
+          time: '17.00 - 21.00',
           class: 'Functional training',
-          classAmount: '4'
+          classAmount: '4',
+          coach: 'Kimberly'
         }, {
           day: 'friday',
-          time: '17.00-21.00',
+          time: '17.00 - 21.00',
           class: 'Functional training',
-          classAmount: '4'
+          classAmount: '4',
+          coach: 'Clint'
         }, {
           day: 'saturday',
-          time: '8.00-10.00',
+          time: '08.00 - 10.00',
           class: 'Functional training',
-          classAmount: '2'
+          classAmount: '2',
+          coach: 'Kimberly'
+        }, {
+          day: 'sunday',
+          time: '---',
+          class: '---',
+          classAmount: '---',
+          coach: '---'
         }]
       }
     }
