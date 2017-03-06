@@ -19,7 +19,7 @@
           <p>Our passion to help others on their journey to become a healthier, fitter &amp; stronger version of themselves, is what fuels us nowadays. We&rsquo;re aiming to keep you focussed on the race&hellip;</p>
           <p>Keeping your eye on the prize...</p>
           <p>Always striving for the max&hellip;</p>
-          <p>Pushing you to greatness!</p>
+          <p><strong>Pushing you to greatness!</strong></p>
         </div>
       </div>
       <!-- /.row -->
