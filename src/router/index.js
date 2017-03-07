@@ -6,6 +6,8 @@ import About from '@/components/pages/About'
 import ContactUs from '@/components/pages/ContactUs'
 import Schedule from '@/components/pages/Schedule'
 import Staff from '@/components/pages/Staff'
+import Login from '@/components/app/login/Login'
+import Application from '@/components/app/Application'
 
 Vue.use(Router)
 
@@ -35,6 +37,17 @@ export default new Router({
         {
           path: 'staff',
           component: Staff
+        }
+      ]
+    },
+    {
+      path: '/app',
+      component: Application,
+      redirect: '/app/login',
+      children: [
+        {
+          path: 'login',
+          component: Login
         }
       ]
     }
