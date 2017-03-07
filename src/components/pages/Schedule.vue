@@ -16,10 +16,12 @@
             style="width: 100%">
             <el-table-column type="expand">
               <template scope="props">
-                <p>Day: {{ props.row.day }}</p>
-                <p>Time: {{ props.row.time }}</p>
-                <p>Class: {{ props.row.class }}</p>
-                <p>Amount: {{ props.row.classAmount }}</p>
+                <ul>
+                  <li v-for="v in props.row.program">
+                    <p>Time: {{ v.time }}</p>
+                    <p>Class: {{ v.class }}</p>
+                  </li>
+                </ul>
               </template>
             </el-table-column>
             <el-table-column
@@ -58,42 +60,162 @@
     time: 'schedule',
     data () {
       return {
+        mondayFridayClasses: [
+          {
+            time: '17.00 - 18.00',
+            class: '1'
+          },
+          {
+            time: '18.00 - 19.00',
+            class: '2'
+          },
+          {
+            time: '19.00 - 20.00',
+            class: '3'
+          },
+          {
+            time: '20.00 - 21.00',
+            class: '4'
+          }],
+        saturdayClasses: [
+          {
+            time: '8.00 - 9.00',
+            class: '1'
+          },
+          {
+            time: '9.00 - 10.00',
+            class: '2'
+          }],
         tableData: [{
           day: 'monday',
           time: '17.00 - 21.00',
           class: 'Functional training',
           classAmount: '4',
-          coach: 'Clint'
+          coach: 'Clint',
+          program: [
+            {
+              time: '17.00 - 18.00',
+              class: '1'
+            },
+            {
+              time: '18.00 - 19.00',
+              class: '2'
+            },
+            {
+              time: '19.00 - 20.00',
+              class: '3'
+            },
+            {
+              time: '20.00 - 21.00',
+              class: '4'
+            }]
         }, {
           day: 'tuesday',
           time: '17.00 - 21.00',
           class: 'Functional training',
           classAmount: '4',
-          coach: 'Kimberly'
+          coach: 'Kimberly',
+          program: [
+            {
+              time: '17.00 - 18.00',
+              class: '1'
+            },
+            {
+              time: '18.00 - 19.00',
+              class: '2'
+            },
+            {
+              time: '19.00 - 20.00',
+              class: '3'
+            },
+            {
+              time: '20.00 - 21.00',
+              class: '4'
+            }]
         }, {
           day: 'wednesday',
           time: '17.00 - 21.00',
           class: 'Functional training',
           classAmount: '4',
-          coach: 'Clint'
+          coach: 'Clint',
+          program: [
+            {
+              time: '17.00 - 18.00',
+              class: '1'
+            },
+            {
+              time: '18.00 - 19.00',
+              class: '2'
+            },
+            {
+              time: '19.00 - 20.00',
+              class: '3'
+            },
+            {
+              time: '20.00 - 21.00',
+              class: '4'
+            }]
         }, {
           day: 'thursday',
           time: '17.00 - 21.00',
           class: 'Functional training',
           classAmount: '4',
-          coach: 'Kimberly'
+          coach: 'Kimberly',
+          program: [
+            {
+              time: '17.00 - 18.00',
+              class: '1'
+            },
+            {
+              time: '18.00 - 19.00',
+              class: '2'
+            },
+            {
+              time: '19.00 - 20.00',
+              class: '3'
+            },
+            {
+              time: '20.00 - 21.00',
+              class: '4'
+            }]
         }, {
           day: 'friday',
           time: '17.00 - 21.00',
           class: 'Functional training',
           classAmount: '4',
-          coach: 'Clint'
+          coach: 'Clint',
+          program: [
+            {
+              time: '17.00 - 18.00',
+              class: '1'
+            },
+            {
+              time: '18.00 - 19.00',
+              class: '2'
+            },
+            {
+              time: '19.00 - 20.00',
+              class: '3'
+            },
+            {
+              time: '20.00 - 21.00',
+              class: '4'
+            }]
         }, {
           day: 'saturday',
           time: '08.00 - 10.00',
           class: 'Functional training',
           classAmount: '2',
-          coach: 'Kimberly'
+          coach: 'Kimberly',
+          program: [
+            {
+              time: '8.00 - 9.00',
+              class: '1'
+            },
+            {
+              time: '9.00 - 10.00',
+              class: '2'
+            }]
         }, {
           day: 'sunday',
           time: '---',
