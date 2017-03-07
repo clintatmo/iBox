@@ -14,6 +14,14 @@
           <el-table
             :data="tableData"
             style="width: 100%">
+            <el-table-column type="expand">
+              <template scope="props">
+                <p>Day: {{ props.row.day }}</p>
+                <p>Time: {{ props.row.time }}</p>
+                <p>Class: {{ props.row.class }}</p>
+                <p>Amount: {{ props.row.classAmount }}</p>
+              </template>
+            </el-table-column>
             <el-table-column
               prop="day"
               label="Day"
