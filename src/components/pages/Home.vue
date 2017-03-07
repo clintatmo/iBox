@@ -5,15 +5,19 @@
       <!-- Wrapper for slides -->
       <el-carousel :interval="5000" arrow="always" height="600px">
         <el-carousel-item>
+          <h2> Athletic performance</h2>
           <img src="/static/image_cf_1.jpg"/>
         </el-carousel-item>
         <el-carousel-item>
+          <h2> Power and endurance</h2>
           <img src="/static/image_cf_2.jpg"/>
         </el-carousel-item>
         <el-carousel-item>
+          <h2> Nutrition and recovery</h2>
           <img src="/static/image_cf_3.jpg"/>
         </el-carousel-item>
         <el-carousel-item>
+          <h2> Positive community</h2>
           <img src="/static/image_cf_4.jpg"/>
         </el-carousel-item>
       </el-carousel>
