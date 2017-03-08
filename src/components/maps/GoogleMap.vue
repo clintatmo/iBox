@@ -30,9 +30,9 @@
     name: 'googlemap',
     data () {
       return {
-        center: {lat: 5.857536, lng: -55.117138},
+        center: {lat: 5.856971, lng: -55.116711},
         markers: {
-          position: {lat: 5.857536, lng: -55.117138}
+          position: {lat: 5.856971, lng: -55.116711}
         }
       }
     }
